@@ -1,6 +1,7 @@
 
 import styles from "./Navbar.module.css";
 import { FaArrowCircleDown, FaArrowDown, FaShopify } from 'react-icons/fa';
+import { useSession, signIn, signOut } from "next-auth/react";
 
 const navbar = () => {
 return (
